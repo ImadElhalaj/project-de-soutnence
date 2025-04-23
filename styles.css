@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Menu burger icon */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+    .acceuil{
+    width: 50vh;
+    background-size: cover;
+    background: url(R.jpeg);
+}
+.navbar{
+    text-align: center;
+}
+}

@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    align-items: center;
+    display: flex;
+   justify-content: space-between;
+   background: linear-gradient(to left, grey,white);
+   padding: 25px;
+  
+}
+ul li{
+    display: inline;
+    margin-left: 1rem;
+   
+}
+ul li a{
+  text-decoration: none;
+}
+.navdiv a{
+    color: aliceblue;
+   
+}
+.navdiv button a{
+    color: white;
+    text-decoration: none;
+   
+}
+.logo img{
+    text-decoration: none;
+    color: aliceblue;
+    width: 10vh;
+    
+}
+span{
+    color: black;
+}
+.navdiv a:hover{
+    color: rgb(255, 0, 0);
+}
+.navdiv button{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+.navdiv button:hover{
+    background-color: orange;
+}
+.acceuil{
+    background-image: url(Bbt\ Wallpaper\ HD\ Car\ For\ Desktop\ Mobile.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-attachment: fixed;
+ 
+   
+}
+.navbar button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+}
+.navbar button{
+    padding: 30px;
+   
+    border-radius: 20px;
+    background: #ff6600;
+    margin-top: 15px;
+    color: black;
+    font-size: large;
+   
+    
+}
+.navbar button:hover{
+    background-color: orange;
+    color: black;
+    
+}
+
+
+.navdiv a i{
+    font-size: x-large;
+}
+.intro{
+    padding: 50px;
+    background-color: #414143;
+}
+.btn-first{
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.btn-button {
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn-first:hover{
+    background-color: orange;
+}
+.container-second {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+  .voitures {
+    padding: 40px 0;
+    background-color: #414143;
+    border: 2px solid;
+  }
+  
+  .voitures h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .cars {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .car {
+    background-color: #fffffa;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    
+    text-align: center;
+    margin: 30px 25px;
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .car h3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .car p {
+    margin: 20px 0;
+
+  }
+  
+  .car .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .car .btn:hover {
+    background-color: black;
+    color: aliceblue;
+  }
+  
+ 
+  .services {
+    background-color: rgba(255, 166, 0, 0);
+    padding: 40px 0;
+  }
+  
+  .services .container-second {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .car img{
+  width: 250px;
+  }
+ 
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: #1e90ff;
+}
+
+
+.whatsapp {
+  color: #25D366;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.email {
+  color: #ea4335;
+}
+
+/* Style de la carte */
+.map iframe {
+  border-radius: 10px;
+  max-width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.social-icons span{
+  color: aliceblue;
+
+}
+.social-icons span:hover{
+  color: #ff6600;
+}
+.container-n3{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.service{
+  border-radius: 20px;
+  background-color: #ff6600;
+  width: 350px;
+  height: 250px;
+}
+.services{
+  background-image: url(13644.jpg);
+  background-size: cover;
+  height: 50vh;
+  background-attachment: fixed;
+}
+/* Section Réservation */
+.reservation {
+  background-color: #ecf0f1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Section Contact */
+.contact {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.acceuil h1{
+  color: white;
+  position: relative;
+left: 520px;
+  
+}
+.acceuil .navbar{
+  color: red;
+  position: relative;
+  right:35rem;
+  top: 80px;
+  
+}
+.about {
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+}
+.about img{
+  width: 500px;
+}
+.container h1{
+  margin-bottom: 50vh;
+  margin-left: 20vh;
+}
+.container .about p{
+  margin-right: 100vh;
+  margin-left: 0;
+}
